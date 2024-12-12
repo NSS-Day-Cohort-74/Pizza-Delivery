@@ -1,10 +1,19 @@
-const orderPizza = async () => {
-  const response = await fetch("http://localhost:3000/pizzas/1")
-  const pizza = await response.json()
+// When the user clicks the order button, invoke orderPizza
 
-  document.getElementById("pizza-info").innerHTML = `
-      You ordered a ${pizza.size} ${pizza.toppings.join(", ")} pizza (ID: ${
-    pizza.order_id
-  })
-    `
+const orderPizza = () => {
+  // get the pizza
+  // display the pizza
+}
+
+const getPizza = () => {
+  // Generate a random pizza ID
+  const randomPizzaId = Math.floor(Math.random() * 10) + 1
+
+  // Fetch the random pizza
+  // Return the pizza
+}
+
+const displayPizza = () => {
+  // Generate HTML to display pizza details
+  // Append HTML in the appropriate location
 }
