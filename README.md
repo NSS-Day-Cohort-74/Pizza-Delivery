@@ -8,3 +8,10 @@ Here is what he asked for:
 Thats It!
 
 Using Async & Await, please help Dave generate Wacky Pizzas for his customers. 
+
+
+### Follow up Questions:
+- What is Async
+- What is Await
+- When should you use Async/ Await
+- What are the benefits
